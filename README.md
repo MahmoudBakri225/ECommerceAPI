@@ -7,13 +7,7 @@ This ECommerce API provides endpoints to manage various resources such as Accoun
 - **Category Managemen**t: Organize products into categories with category-specific retrieval.
 - **Contact Management**: Allow users to submit contact messages that can be managed by admins.
 
-
-
-### Base URL
-bash
-Copy code
-http://localhost:7291/api
-#### Endpoints
+### Endpoints
 - **Account**
 - POST /Account/registration - Register a new user account.
 - POST /Account/login - Login for existing users.
@@ -38,17 +32,8 @@ http://localhost:7291/api
 - GET /Product/{id} - Retrieve a product by ID.
 - PUT /Product/{id} - Update an existing product by ID.
 - GET /Product/search - Search for products.
-##### Getting Started
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/ECommerceAPI.git
-Install dependencies and configure your development environment as per the project setup.
-
-Run the application and navigate to http://localhost:7291/swagger to explore and test the API endpoints.
-
-##### Technologies Used
+  
+#### Technologies Used
 - **ASP.NET Core - Web API framework**
 - **Entity Framework Core - ORM for data management**
 
